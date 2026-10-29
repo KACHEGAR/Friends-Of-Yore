@@ -72,5 +72,7 @@ Delete winhttp.dll from the game folder (the mod stops loading), or also doorsto
 
 Not done yet: the player you hang on doesn't feel your weight; save progress is not shared.
 
-Contents: BepInEx 5.4.23.2 (LGPL-2.1, https://github.com/BepInEx/BepInEx) and the Friends of Yore plugin.
+Contents: BepInEx 5.4.23.2, unmodified (LGPL-2.1, see LICENSE-BepInEx.txt; https://github.com/BepInEx/BepInEx)
+and the Friends of Yore plugin (MIT, see LICENSE-FriendsOfYore.txt).
+Already have BepInEx 5 for other mods? Take the plugin-only archive instead, so your BepInEx stays as it is.
 The mod contains no game files: character models are taken from your own installed game at runtime.

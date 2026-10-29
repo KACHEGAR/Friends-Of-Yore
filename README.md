@@ -51,16 +51,25 @@ endorsed by the developers of Peaks of Yore.
 
 ## Installation
 
-1. Download the latest `FriendsOfYore-x.y.z.zip` from [**Releases**](../../releases/latest).
-2. In Steam: **Library → Peaks of Yore → right click → Manage → Browse local files**.
-3. Extract **everything** from the archive into that folder, replacing files. `winhttp.dll` and the `BepInEx` folder
-   must sit next to `Peaks of Yore.exe`.
-4. Start the game from Steam. "Friends of Yore x.y.z" appears in the top-right corner.
+Download from [**Releases**](../../releases/latest) - one of two archives:
+
+| Archive | For whom |
+|---|---|
+| `FriendsOfYore-x.y.z.zip` | **No other mods installed.** Everything in one: the mod and BepInEx 5.4.23.2. |
+| `FriendsOfYore-x.y.z-plugin-only.zip` | **BepInEx 5 already installed** (for other mods). Only the mod itself. |
+
+1. In Steam: **Library → Peaks of Yore → right click → Manage → Browse local files**.
+2. Extract **everything** from the archive into that folder, replacing files. With the full archive, `winhttp.dll`
+   and the `BepInEx` folder must sit next to `Peaks of Yore.exe`; with the plugin-only one, the mod ends up in
+   `BepInEx\plugins\FriendsOfYore\`.
+3. Start the game from Steam. "Friends of Yore x.y.z" appears in the top-right corner.
 
 Everyone needs their own copy of the game on Steam and **the same mod version**.
 
-**Updating:** extract the new archive over the old one. **Uninstalling:** delete `winhttp.dll` from the game folder
-(the mod stops loading), or also `doorstop_config.ini`, `.doorstop_version` and the `BepInEx` folder.
+**Updating:** extract the new archive over the old one (if you have other mods, take the plugin-only archive so your
+BepInEx stays as it is). **Uninstalling:** delete the `BepInEx\plugins\FriendsOfYore` folder; to remove BepInEx too
+(only if no other mods use it), delete `winhttp.dll`, `doorstop_config.ini`, `.doorstop_version` and the `BepInEx`
+folder.
 
 ## Controls
 
@@ -133,8 +142,9 @@ No game files are in this repository; character models and sounds are taken from
 
 ## License
 
-The mod's code is released under the [MIT License](LICENSE). The release archive also contains BepInEx, which has
-its own license (LGPL-2.1). Peaks of Yore and its assets belong to their owners.
+The mod's code is released under the [MIT License](LICENSE). The full release archive also contains an unmodified
+[BepInEx](https://github.com/BepInEx/BepInEx) 5.4.23.2, which is under its own license, the LGPL-2.1 (included in the
+archive as `LICENSE-BepInEx.txt`). Peaks of Yore and its assets belong to their owners.
 
 ## Credits
 
