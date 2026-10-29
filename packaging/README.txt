@@ -64,7 +64,7 @@ NEEDS
 - Steam running. (Steam overlay is not required any more.)
 
 IF SOMETHING GOES WRONG
-Send these files from the game folder: BepInEx\LogOutput.log and BepInEx\friendsofyore-trace.csv
+Send this file from the game folder: BepInEx\LogOutput.log
 
 UNINSTALL
 Delete winhttp.dll from the game folder (the mod stops loading), or also doorstop_config.ini,
