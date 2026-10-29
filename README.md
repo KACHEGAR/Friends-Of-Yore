@@ -40,20 +40,12 @@ endorsed by the developers of Peaks of Yore.
 - Crumbling holds (including how worn they are), loose bricks, shrubs, brittle ice, snow, falling rocks and icicles,
   bending branches and trees, vines, beams, swinging bodies and bivouacs (you can rest in a friend's).
 - Seagulls and their flight; aggressive gulls give up after 10 seconds.
-- Mills and the wandering goats of the Alps DLC run on a shared clock: identical for everyone, also after a pause or
-  for a late arrival.
-- Cabin clocks show your computer's time; the Workshop bell is heard by everyone.
 - Falls, splashes and knock-outs are heard by players nearby; a door opens when a friend joins.
 
 **Looks and voice**
-- Pick how others see you in **ESC → Multiplayer Settings → Look**, from live previews of the game's characters - or
-  play as a goat, or as two gulls in place of your hands.
+- Pick how others see you in **ESC → Multiplayer Settings → Look**, from live previews of the game's characters.
 - Proximity voice chat over Steam: loud up to 2 m, silent at 50 m, a mountain echo for far friends. Open mic or
-  push-to-talk, master and per-friend volume up to 300%.
-
-**Gamepad**
-- Every mod menu works with a controller: stick / D-pad to move, A to press, left / right to change a value,
-  LB / RB to switch tabs, B to go back. In the pause menu push right to reach the player list.
+  push-to-talk.
 
 ---
 
