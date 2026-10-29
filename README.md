@@ -149,6 +149,7 @@ archive as `LICENSE-BepInEx.txt`). Peaks of Yore and its assets belong to their 
 ## Credits
 
 - **Friends of Yore** by **KACHEGAR** and **Vorobushek**.
+- Code written with the help of [Claude](https://claude.ai) (Anthropic), an AI assistant.
 - **Peaks of Yore** by Anders Lauridsen / Pink Robot, published by Maple Whispering.
 - [BepInEx](https://github.com/BepInEx/BepInEx) (LGPL-2.1), [Harmony](https://github.com/pardeike/Harmony),
   [Steamworks.NET](https://github.com/rlabrecque/Steamworks.NET).
